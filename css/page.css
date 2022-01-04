@@ -113,6 +113,52 @@ html {
 /* End Members */
 
 
+/* Start Skills */
+
+.skills {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 30px 15px;
+}
+
+td {
+    font-size: 21px;
+}
+
+th {
+    font-weight: 700;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+}
+
+th:hover {
+    background-color: white;
+    color: #000;
+}
+
+td:hover {
+    background-color: goldenrod;
+}
+
+
+/* End Skills */
+
+
 /* Start Works */
 
 .works {
